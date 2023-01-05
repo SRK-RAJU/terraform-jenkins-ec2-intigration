@@ -1,3 +1,3 @@
-variable "region" {
-  description = "region"
-}
+#variable "region" {
+#  description = "region"
+#}
