@@ -14,7 +14,7 @@
 resource "aws_instance" "web" {
 #  ami           = "${data.aws_ami.ec2_instance.id}"
   ami= "ami-0574da719dca65348"
-  region = "us-east-1"
+#  region = "us-east-1"
   instance_type = "t2.micro"
 
   tags = {
