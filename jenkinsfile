@@ -11,7 +11,7 @@
       stage('TF Init&Plan') {
         steps {
           sh 'terraform init'
-          sh 'terraform plan -var="region=us-east-1"'
+          sh 'terraform plan '
         }      
       }
 
