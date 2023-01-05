@@ -1,2 +1,2 @@
-# terraform-jenkins-ec2-intigration
-creating ec2 instance
+# terraform-jenkins-ec2
+This is demo repository for Terraform integration with jenkins.
