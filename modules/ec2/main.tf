@@ -16,6 +16,6 @@ resource "aws_instance" "web" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "EC2 Demo Instance"
+    Name = "EC2 Raju integration  Instance"
   }
 }
