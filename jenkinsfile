@@ -3,7 +3,7 @@
     stages {
       stage('fetch_latest_code') {
         steps {
-          git credentialsId: 'Github', url: 'https://github.com/SRK-RAJU/terraform-jenkins-ec2-intigration'
+          git credentialsId: '361d8cd7-ecdc-4d3b-91e0-814681240b8b', url: 'https://github.com/SRK-RAJU/terraform-jenkins-ec2-intigration'
         }
       }
 
